@@ -6,5 +6,5 @@ angular.module('miniRouting')
   else if ($stateParams.id === 'socks') {
     $scope.productData = productsService.sockData;
   }
-  // $scope.stateName = $stateParams.id;
+
 })
